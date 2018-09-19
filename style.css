@@ -1,0 +1,410 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-size: auto;
+    background-color: rgb(255, 255, 255);
+    color: #485e74;
+    line-height: 1.6;
+    font-family: 'Karla';
+    padding: 1em;
+    overflow-x: hidden;
+}
+
+.brand {
+    font-size: 2rem; 
+    width: 100%; 
+    display: block; 
+}
+
+.brand #brand1, .brand #brand2 {
+    display: inline-block; 
+}
+
+.brand #brand1 {
+    color: darkcyan;
+    animation: brand1 1.7s forwards; 
+}
+
+.brand #brand2 {
+    animation: brand2 1.7s forwards; 
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1em;
+}
+
+.brand {
+    text-align: center;
+}
+.brand span{
+    color: darkcyan;
+}
+
+.subtext {
+    text-align: center;
+}
+
+@keyframes brand1 {
+    0% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}
+
+@keyframes brand2 {
+    0% {
+        transform: translateX(1000px);
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}
+
+  
+.expandContentMcLellan p {
+    text-align: center;
+}
+.expandContentMcLellan p {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.expandContentMcLellan p:hover{
+    opacity: .3;
+    background: #fffefe;
+}
+
+.expandContentTumTum p {
+    text-align: center;
+}
+.expandContentTumTum p {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.expandContentTumTum p:hover{
+    opacity: .3;
+    background: #fffefe;
+
+}
+
+.expandContentMinne p {
+    text-align: center;
+}
+.expandContentMinne p {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.expandContentMinne p:hover{
+    opacity: .3;
+    background: #fffefe;
+
+}
+
+.expandContentSharon p {
+    text-align: center;
+}
+.expandContentSharon p {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.expandContentSharon p:hover{
+    opacity: .3;
+    background: #fffefe;
+
+}
+
+.expandContentBanksLake p {
+    text-align: center;
+}
+.expandContentBanksLake p {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.expandContentBanksLake p:hover{
+    opacity: .3;
+    background: #fffefe;
+
+}
+
+.expandContentValley p {
+    text-align: center;
+}
+.expandContentValley p {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.expandContentValley p:hover{
+    opacity: .3;
+    background: #fffefe;
+
+}
+
+.expandContentPostFalls p {
+    text-align: center;
+}
+.expandContentPostFalls p {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.expandContentPostFalls p:hover{
+    opacity: .3;
+    background: #fffefe;
+
+}
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+/* FORM STYLES */
+
+.mclellan form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.mclellan form label{
+    display: block;
+}
+.mclellan form p{
+    margin: 0;
+}
+.mclellan form .full{
+    grid-column: 1 / 3;
+}
+.mclellan form button, .mclellan form input, .mclellan form textarea{
+    width: 100%;
+    padding: 1em;
+}
+.mclellan form button{
+    background: rgba(0, 139, 139, 0.407) ;
+    border: 0;
+}
+
+
+
+
+.tumtum form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.tumtum form label{
+    display: block;
+}
+.tumtum form p{
+    margin: 0;
+}
+.tumtum form .full{
+    grid-column: 1/3;
+}
+.tumtum form button, .tumtum form input, .tumtum form textarea{
+    width: 100%;
+    padding: 1em;
+}
+.tumtum form button{
+    background: rgba(0, 139, 139, 0.407) ;
+    border: 0;
+}
+
+
+
+.minne form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.minne form label{
+    display: block;
+}
+.minne form p{
+    margin: 0;
+}
+.minne form .full{
+    grid-column: 1/3;
+}
+.minne form button, .minne form input, .minne form textarea{
+    width: 100%;
+    padding: 1em;
+}
+.minne form button{
+    background: rgba(0, 139, 139, 0.407);
+    border: 0;
+}
+
+
+
+
+.sharon form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.sharon form label{
+    display: block;
+}
+.sharon form p{
+    margin: 0;
+}
+.sharon form .full{
+    grid-column: 1/3;
+}
+.sharon form button, .sharon form input, .sharon form textarea{
+    width: 100%;
+    padding: 1em;
+}
+.sharon form button{
+    background: rgba(0, 139, 139, 0.407) ;
+    border: 0;
+}
+
+
+.bankslake form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.bankslake form label{
+    display: block;
+}
+.bankslake form p{
+    margin: 0;
+}
+.bankslake form .full{
+    grid-column: 1/3;
+}
+.bankslake form button, .bankslake form input, .bankslake form textarea{
+    width: 100%;
+    padding: 1em;
+}
+.bankslake form button{
+    background: rgba(0, 139, 139, 0.407) ;
+    border: 0;
+}
+
+
+
+.valley form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.valley form label{
+    display: block;
+}
+.valley form p{
+    margin: 0;
+}
+.valley form .full{
+    grid-column: 1/3;
+}
+.valley form button, .valley form input, .valley form textarea{
+    width: 100%;
+    padding: 1em;
+}
+.valley form button{
+    background: rgba(0, 139, 139, 0.407);
+    border: 0;
+}
+
+
+
+.postfalls form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.postfalls form label{
+    display: block;
+}
+.postfalls form p{
+    margin: 0;
+}
+.postfalls form .full{
+    grid-column: 1/3;
+}
+.postfalls form button, .postfalls form input, .postfalls form textarea{
+    width: 100%;
+    padding: 1em;
+}
+.postfalls form button{
+    background: rgba(0, 139, 139, 0.407) ;
+    border: 0;
+}
+
+
+.expandContentAccess p {
+font-size: 5px;
+}
+.contribute p  {
+    font-size: 8px;
+}
+
+.contribute label {
+    font-size: 8px;
+}
+
+.popup-lp {
+    background-color: white;
+    padding: 35px;
+}
+
+button.my_popup_close {
+    float: right;
+}
+
+.input-pop {
+  text-align: center;
+  font-size: 19px!important;
+  background-color: rgb(143, 143, 143)!important;
+
+}
+
+.btn-pop {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  line-height: 2.4em;
+}
+
+#button {
+    background: none;
+    border: none;
+    color: inherit;
+    padding-bottom: 0;
+    padding-top: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 7px;
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "bgLIVE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gh-pages -d BGLIVE"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://sjc850.github.io/spokaneclimbing.guide",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
